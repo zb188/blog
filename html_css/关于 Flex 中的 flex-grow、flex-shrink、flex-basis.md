@@ -1,8 +1,8 @@
-## 关于 Flex 中的 flex-grow、flex-shrink、flex-basis
+## 关于 Flex  0 1 auto的理解,其中的 flex-grow、flex-shrink、flex-basis
 
-在使用 flex 布局的时候难以理解的是 flex-grow、flex-shrink、flex-basis 几个属性的用法，下面通过几个例子来演示。
+在使用 flex 布局的时候,属性 flex-grow、flex-shrink、flex-basis 开始是比较难以理解的；
+下面通过几个例子来演示加深理解。
 
-flex-basis
 flex-basis 用于设置子项的占用空间。如果设置了值，则子项占用的空间为设置的值；如果没设置或者为 auto，那子项的空间为 width/height 的值。
 
 flex-basis
