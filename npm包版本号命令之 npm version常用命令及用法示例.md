@@ -1,10 +1,11 @@
-## npm version 平时不常用的命令,一般是在在开发npm的时候使用。
+## npm version 平时不常用的命令,一般是在开发npm包的时候使用。
 
 ### 初始化一个npm包
 1.创建文件夹 npm-test-module
 2.cd npm-test-module
 3. npm init -y 在工程目录下生成package.json如下：
 
+```json
 {
   "name": "npm-test-module",
   "version": "1.0.0",
@@ -17,14 +18,15 @@
   "author": "",
   "license": "ISC"
 }
+```
 
 ### npm version 概览
-npm version --help
-npm version [<newversion> | major | minor | patch | premajor | preminor | prepatch | prerelease [--preid=<prerelease-id>] | from-git]
-(run in package dir)
-'npm -v' or 'npm --version' to print npm version (6.4.1)
-'npm view <pkg> version' to view a package's published version
-'npm ls' to inspect current package/dependency versions
+npm version --help  
+npm version [<newversion> | major | minor | patch | premajor | preminor | prepatch | prerelease [--preid=<prerelease-id>] | from-git]  
+(run in package dir)  
+'npm -v' or 'npm --version' to print npm version (6.4.1)  
+'npm view <pkg> version' to view a package's published version  
+'npm ls' to inspect current package/dependency versions  
 
 ### npm version获取当前的详细版本信息。
 
